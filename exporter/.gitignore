@@ -1,0 +1,22 @@
+# Sanal ortam dosyaları
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.swp
+
+# Docker ile ilgili dosyalar
+*.log
+docker-compose.override.yml
+
+# Gizli dosyalar
+*.env
+config.json
+secrets.json

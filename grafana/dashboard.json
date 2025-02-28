@@ -1,0 +1,21 @@
+{
+    "dashboard": {
+      "title": "Fortify Security Monitoring",
+      "panels": [
+        {
+          "type": "graph",
+          "title": "Vulnerabilities Over Time",
+          "targets": [
+            {
+              "expr": "fortify_vulnerabilities{severity='Critical'}",
+              "legendFormat": "Critical Issues"
+            },
+            {
+              "expr": "fortify_vulnerabilities{severity='High'}",
+              "legendFormat": "High Issues"
+            }
+          ]
+        }
+      ]
+    }
+  }

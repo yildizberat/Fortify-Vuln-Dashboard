@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+
+scrape_configs:
+  - job_name: 'fortify'
+    static_configs:
+      - targets: ['fortify-monitoring_exporter_1:9220']
