@@ -6,8 +6,8 @@ from flask import Flask, Response
 from prometheus_client import Gauge, generate_latest, CONTENT_TYPE_LATEST
 
 # Fortify API ve Token bilgileri
-BASE_URL = "https://fortify.hepsiburada.com/ssc/api/v1"
-TOKEN = "NGU5YWRkNGMtZjIxNS00NzczLTkxMmEtY2MyZTliOTBiZGNl"  # Gerçek tokeni kullan
+BASE_URL = "https://fortify_ssc_addres/ssc/api/v1"
+TOKEN = "Fortify_Token"  
 HEADERS = {
     "Authorization": f"FortifyToken {TOKEN}",
     "Accept": "application/json"
